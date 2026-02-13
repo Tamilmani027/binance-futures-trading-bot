@@ -52,7 +52,7 @@ def main():
         print(f"Status: {result['status']}")
         print(f"Executed Quantity: {result['executedQty']}")
         print(f"Average Price: {result['avgPrice']}")
-        print("\n✅ Order placed successfully!")
+        print("\n Order placed successfully!")
 
     except Exception as e:
         logging.error(str(e))
