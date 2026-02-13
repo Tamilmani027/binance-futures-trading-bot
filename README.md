@@ -208,15 +208,6 @@ trading_bot/
 
 ---
 
-# Evaluation Focus
 
-This project demonstrates:
 
-* Correct order placement on testnet
-* Clean and modular code structure
-* Input validation and error handling
-* Useful logging implementation
-* Professional CLI design
-
----
 
