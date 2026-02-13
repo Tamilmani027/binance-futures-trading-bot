@@ -11,8 +11,6 @@ This project demonstrates:
 * Exception handling
 * Clean CLI interface
 
----
-
 # Features
 
 * Place **MARKET** orders
@@ -23,13 +21,9 @@ This project demonstrates:
 * Handles invalid input and API errors
 * Clean modular architecture
 
----
-
 # Setup Instructions
 
 Follow these steps carefully.
-
----
 
 ## Create Binance Futures Testnet Account
 
@@ -39,8 +33,6 @@ Follow these steps carefully.
    * API Key
    * Secret Key
 3. Keep them secure.
-
----
 
 ## Clone or Download the Project
 
@@ -75,15 +67,11 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
----
-
 ## Install Dependencies
 
 ```
 pip install -r requirements.txt
 ```
-
----
 
 ## Add Your API Credentials
 
@@ -96,13 +84,9 @@ API_SECRET = "YOUR_SECRET_KEY"
 
 With your actual Binance Testnet API credentials.
 
----
-
 # How to Run
 
 All commands must be run from the project root folder.
-
----
 
 ## MARKET Order Example
 
@@ -128,8 +112,6 @@ Average Price: 43000.50
 Order placed successfully!
 ```
 
----
-
 ## LIMIT Order Example
 
 ```
@@ -141,7 +123,6 @@ For LIMIT orders:
 * `--price` is mandatory
 * Order will execute only when price is reached
 
----
 
 # Log File
 
@@ -158,7 +139,6 @@ This file contains:
 * API responses
 * Error details (if any)
 
----
 
 # Project Structure
 
@@ -176,7 +156,6 @@ trading_bot/
 └── README.md
 ```
 
----
 
 # Assumptions
 
@@ -188,7 +167,6 @@ trading_bot/
 6. This bot does not manage leverage or margin settings.
 7. This application is for educational/testing purposes only.
 
----
 
 # Important Notes
 
@@ -197,7 +175,6 @@ trading_bot/
 * Do not share your API keys publicly.
 * Always verify symbol and quantity before placing orders.
 
----
 
 # Technologies Used
 
@@ -206,7 +183,6 @@ trading_bot/
 * argparse
 * logging
 
----
 
 
 
