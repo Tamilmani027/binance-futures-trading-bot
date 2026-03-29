@@ -34,19 +34,6 @@ Follow these steps carefully.
    * Secret Key
 3. Keep them secure.
 
-## Clone or Download the Project
-
-If using Git:
-
-```
-git clone <your-repository-link>
-cd trading_bot
-```
-
-Or extract the zip folder.
-
----
-
 ## Create Virtual Environment (Recommended)
 
 ```
